@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="Encabezado">
+           <a> 20% de descuento en todos los productos!</a>
+        </div>
+        <div class="lole">
+            <div>
+                <img src="img/OBJECTS.png" alt="logo">
+                <h1>Nombre Tienda</h1>
+            </div>
+        </div>
+        <nav class="Pie">
+            <a  class="c" href="#"> Contacto </a> <a class="r" href="#"> Registrarme </a> <a class="i" href="#"> Ingresar </a>
+        </nav>
+    </header>
+    <main>
+        <form action="/registro" method="post">
+          <h2>Añadi tu super!</h2>
+          <span>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+            <section class="primeralinea">
+                <div class="unouno">
+                    <label for="name">*Nombre</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="unodos">
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie">
+                        <option  value="opt">Especie</option>
+                        <option value="vipero">Vipero</option>
+                        <option value="Reptil">Reptil</option>
+                        <option value="aquatico">Aquatico</option>
+                        <option value="alien">Alienigena</option>
+                    <select>
+                    
+                </div>
+            </section>
+            <section class="segundalinea">
+                <div class="dosuno">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="dosdos">
+                    <label for="foto">Agregar foto</label>
+                    <input class="lolo" type="file" name="foto" id="foto">
+                </div>
+            </section>
+            <section class="terceralinea">
+                <textarea name="texto" id="text" cols="30" rows="10">Descripcion</textarea>
+                <div class="tresdos">
+                    <div class="poderes">
+                        <a>Poderes</a>
+                        <label for="volar"><input type="checkbox" name="volar" id="volar" value="Volar">Volar
+                        </label>
+                        <label for="Superinteligencia"><input type="checkbox" name="superinteligencia" id="superinteligencia" value="superinteligencia">Superinteligencia
+                        </label>
+                        <label for="laser"><input type="checkbox" id="laser" value="laser" name="laser">Visa de rayo laser
+                        </label>
+                        <label for="billetera"><input type="checkbox" id="billetera" name="billetera" value="billetera">Billetera gorda
+                        </label>
+                    </div>
+                    <hr>
+                    <div class="personaje">
+                        <a>Tipo de personaje</a>
+                        <label for="heroe"><input type="radio" name="uno" id="heroe" value="heroe">Héroe/Heroina
+                        </label>
+                        <label for="villano"><input type="radio" id="villano" name="uno" value="villano">Villano/Villana
+                        </label>
+                    </div>
+                </div>
+            </section>
+          </span>
+          <button type="submit"> Añadir</button>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a Fronted 1</p>
+    </footer>
+    
+</body>
+</html>

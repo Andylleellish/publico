@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    margin-top: -7.7px;
+}
+.Encabezado{
+    background-color: #1CD1B0;
+    width: 99vw;
+    margin-left: -7.7px;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+.Encabezado a{
+    font-size: 2vh;
+    padding-left: 30px;
+}
+.lole{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    width: 99vw;
+    margin-left: -7.7px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    
+}
+.lole div{
+    display: flex;
+    align-items: center;
+}
+.lole div h1{
+    padding-left: 15px;
+    font-size: 3.5vh;
+}
+.lole div img{
+    height: 7vh;
+    padding-left: 15px;
+}
+.Pie{
+    margin-left: -7.7px;
+    width: 99vw;
+    height: 4vh;
+    background-color: #001D2D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Pie a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+main{
+    margin-left: -7.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 79vh;
+    
+}
+.batman1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.batman1 .fondobatman{
+    z-index: 0;
+}
+.batman1 .fotobatman{
+    width: 300px;
+    height: 257px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+    position: absolute;
+}
+.batman1 .fotobatman .nena div{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-image: url(./img/popis.png);
+    margin-bottom: 10px;
+    z-index: 5;
+    
+}
+    
+.batman1 .backgroundbatman{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    display: flex;
+    align-items: flex-end;
+    margin-top: -4px;
+    padding: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.batman1 .backgroundbatman div{
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.batman1 .backgroundbatman h3{
+    font-size: 25px;
+    
+}
+.batman1 .backgroundbatman p{
+    margin-top: 0px;
+   margin-left: 8px;
+}
+.batman1 .backgroundbatman a{
+    margin-top: 10px;
+    border: 1px #00669F;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #00669F
+}
+a .boton{
+    position: absolute;
+    margin-left: 75px;
+}
+.corazone{
+    position: absolute;
+    margin-right: 240px;
+    margin-top: -230px;
+    font-size: 40px;
+    color: red;
+}
+footer{
+    margin-left: -7.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #00669F;
+    color: white;
+    width: 99vw;
+    margin-bottom: -7.7px;
+}
+a .boton:hover{
+    color: white;
+    background-color: #001D2D;
+}
+.suma i{
+    color: #00669F;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+.suma i:hover{
+   
+    color: black;
+}
+.unodos select{
+    color: #c4c4c4;
+}

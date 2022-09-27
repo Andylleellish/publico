@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    margin-top: -7.7px;
+}
+.Encabezado{
+    background-color: #1CD1B0;
+    width: 99vw;
+    margin-left: -7.7px;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+.Encabezado a{
+    font-size: 2vh;
+    padding-left: 30px;
+}
+.lole{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    width: 99vw;
+    margin-left: -7.7px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    
+}
+.lole div{
+    display: flex;
+    align-items: center;
+}
+.lole div h1{
+    padding-left: 15px;
+    font-size: 3.5vh;
+    font-weight: 700;
+    
+}
+.lole div img{
+    height: 7vh;
+    padding-left: 15px;
+}
+.Pie{
+    margin-left: -7.7px;
+    width: 99vw;
+    height: 4vh;
+    background-color: #001D2D;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Pie a{
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+footer{
+    margin-left: -7.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #00669F;
+    color: white;
+    width: 99vw;
+    margin-bottom: -7.7px;
+}
+main{
+    margin-left: -7.7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 79vh;
+}
+form{
+    width: 55vw;
+    height: 660px;
+    background-color: #00669F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+form h2{
+    font-size: 30px;
+    color: white;
+}
+form span{
+    margin-top: -25px;
+}
+form p{
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.primeralinea{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.primeralinea .unouno{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 80px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.primeralinea .unouno label{
+    margin-bottom: 20px;
+}
+.primeralinea .unodos label{
+    margin-bottom: 20px;
+}
+.segundalinea .dosuno label{
+    margin-bottom: 20px;
+}
+.segundalinea .dosdos label{
+    margin-bottom: 20px;
+}
+.primeralinea .unouno input{
+    height: 40px;
+    border-radius: 8px;
+}
+.primeralinea .unodos{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 80px;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+.primeralinea .unodos select{
+    height: 40px;
+    border-radius: 8px;
+}
+.segundalinea{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+.segundalinea .dosuno{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 80px;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.segundalinea .dosuno input{
+    height: 40px;
+    border-radius: 8px;
+}
+.segundalinea .dosdos{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 80px;
+    justify-content: center;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.terceralinea{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+.terceralinea textarea{
+width: 20vw;
+margin-right: 7px;
+margin-top: 34px;
+}
+.terceralinea .tresdos{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    margin-left: 7px;
+    margin-top: 14px;
+}
+hr{
+    width: 20vw;
+    margin-top: 15px;
+}
+.terceralinea .tresdos .poderes{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.poderes label input{
+    width: 20px;
+    height: 20px;
+}
+.terceralinea .tresdos .personaje{
+    display: flex;
+    flex-direction: column;
+}
+.personaje label input{
+    width: 20px;
+    height: 20px;
+}
+button{
+    margin-top: 15px;
+    width: 25vw;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    background-color: #1CD1B0;
+}
+button{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.segundalinea .dosdos .lolo{
+    width: 13vw;
+}
+.segundalinea .dosdos .lolo::before{
+    content: 'Seleccionar archivo';
+    width: 13vw;
+    height: 25px;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: #CECECE;
+    color: black;
+}
+.segundalinea .dosdos .lolo::after{
+    content: 'super-profe.jpg';
+    width: 7vw;
+    height: 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    margin-top: -22px;
+    color: #001D2D;
+    font-size: 10px;
+}
+.unodos option[value="opt"]{
+    background-color: #c4c4c4;
+}
+.unodos select{
+    color: gray;
+}
+.unodos option{
+    color: black;
+}
+.unodos select:hover{
+    color: black;
+}
+                        
